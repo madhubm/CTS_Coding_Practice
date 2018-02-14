@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="test title"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testRelativeLayout"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:padding="10dp"
+            android:id="@+id/testDescription"
+            android:gravity="left"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorAccent"/>
+
+        <ImageView
+            android:id="@+id/imgRef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            android:layout_weight="0.5"
+            android:layout_gravity="right"
+            android:adjustViewBounds="true"
+            android:contentDescription="IMAGE"
+            />
+
+         <!--   <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:padding="10dp"
+            android:id="@+id/testDescription"
+            android:textColor="@color/colorAccent"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:la/>
+
+            <ImageView
+            android:id="@+id/imgRef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:contentDescription="IMAGE"
+            />
+        </LinearLayout> -->
+    </LinearLayout>
+</LinearLayout>
