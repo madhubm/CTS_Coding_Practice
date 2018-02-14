@@ -42,34 +42,5 @@
             android:contentDescription="IMAGE"
             />
 
-         <!--   <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5">
-            <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:padding="10dp"
-            android:id="@+id/testDescription"
-            android:textColor="@color/colorAccent"
-            />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:la/>
-
-            <ImageView
-            android:id="@+id/imgRef"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="fitXY"
-            android:contentDescription="IMAGE"
-            />
-        </LinearLayout> -->
     </LinearLayout>
 </LinearLayout>
